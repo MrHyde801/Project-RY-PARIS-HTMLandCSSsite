@@ -64,12 +64,12 @@ p {
 }
 
 #homeP {
-    background-image: url(/images/hero-image.jpg);
+    background-image: url("/images/hero-image.jpg");
     background-size: cover;
 }
 
 #recipe {
-    background-image: url(/images/bengal-burger.jpg);
+    background-image: url("/images/bengal-burger.jpg");
     background-size: cover;
 }
 
