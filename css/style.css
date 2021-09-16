@@ -1,0 +1,294 @@
+body {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Hind Siliguri", sans-serif;
+  }
+.header, .footer {
+    padding: 0 160px;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f5ab00;
+}
+
+.footerText {
+    padding-left: 18px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    gap: 20px;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight:530;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h4 {
+    text-align: center;
+    padding: 13px;
+    margin: 0;
+    font-size: 18px;
+}
+
+p {
+    font-size: 30px;
+}
+
+
+.hero {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: solid 2px white;
+    height: 600px;
+    padding-bottom: 100px;
+}
+
+#homeP {
+    background-image: url(/images/hero-image.jpg);
+    background-size: cover;
+}
+
+#recipe {
+    background-image: url(/images/bengal-burger.jpg);
+    background-size: cover;
+}
+
+.startOff {
+    background-color: white;
+    padding: 0 10px;
+}
+
+
+.sectionContainer {
+    padding: 50px 0;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+#healthRec {
+    background-color: #dadfea;
+}
+
+
+.textArea {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.imageContainer {
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+img {
+    object-fit: cover;
+}
+
+.imgSmallerryDay img{
+    width: 350px;
+    height: 300px;
+}
+
+.imgSmallhealth img {
+    width: 250px;
+    height: 220px;
+}
+
+.imgSmallhealth {
+    background-color: white;
+}
+
+.imgSmallwhere img{
+    border: solid 10px #dadfea;
+    width: 340px;
+    height: 300px;
+
+}
+
+/* recipe page */
+
+#time {
+    background-color: #dadfea;
+    padding: 10px;
+}
+
+#time h1 {
+    margin: 5px 0;
+}
+
+#time .textArea {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.prepList {
+    width: 700px;
+    padding: 0;
+    margin: 5px 0;
+    list-style-type: none;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.prepList li{
+    width: 200px;
+}
+
+#burgerContent {
+    margin: 0 auto;
+}
+
+.bengalHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bengalHeader h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+.bbh {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons {
+    color: rgb(167, 34, 34);
+    font-size: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2px;
+}
+
+
+.btn {
+    width: 240px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.saveButton {
+    height: 30px;
+    width: 170px;
+    border: solid 2px black;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(167, 34, 34);
+    text-align: center;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.btn i {
+    padding: 8px;
+    color: grey;
+    border: solid 2px grey;
+    border-radius: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+.quote {
+    margin: 0 auto;
+    background-color: #dadfea;
+    padding: 10px 70px;
+    color: rgb(91, 105, 119);
+    text-align: center;
+}
+
+.detailsContainer {
+    display: flex;
+}
+
+.detailsContainer li {
+    font-size: 18px;
+    padding: 8px 0;
+}
+
+.ingredients {
+    width: 50%;
+}
+
+.ingredients h3 {
+    margin-bottom: 0;
+}
+
+.directions {
+    width: 50%;
+}
+
+.directions h3 {
+    margin-bottom: 0;
+}
+
+ul {
+    margin:0;
+    padding-left: 20px;
+}
+
+ol {
+    margin:0;
+    padding-left: 20px;
+}
+
+.iframe {
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(167, 34, 34);
+    border-radius: 40px;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.iframe h4 {
+    font-weight: normal;
+}
+
+iframe {
+    border:none;
+}
